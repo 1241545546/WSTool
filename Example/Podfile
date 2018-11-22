@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WSTool_Example' do
+  pod 'WSTool', :path => '../'
+
+  target 'WSTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
