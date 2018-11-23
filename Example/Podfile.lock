@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WSTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WSTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WSTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WSTool: b95d2bb5d8e17c6baf2bd2de821cadd03c9614cf
+
+PODFILE CHECKSUM: aaf67f465edc5a1706448c0af79544369710ff30
+
+COCOAPODS: 1.5.3
