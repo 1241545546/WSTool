@@ -1,0 +1,22 @@
+{
+  "name": "WSTool",
+  "version": "0.1.0",
+  "summary": "A short description of WSTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wusaYa/WSTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wusaYa": "1241545546@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wusaYa/WSTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WSTool/Classes/**/*"
+}

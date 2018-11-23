@@ -1,0 +1,6 @@
+framework module WSTool {
+  umbrella header "WSTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
