@@ -8,11 +8,14 @@
 
 #import "XLAppDelegate.h"
 
+#import "XLWOpenData.h"
+
 @implementation XLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [XLWOpenData openData];
     return YES;
 }
 
